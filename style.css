@@ -1,0 +1,45 @@
+body { 
+  margin: 0; 
+} 
+ul { 
+  list-style-type: none; 
+  display: flex; 
+  justify-content: center; 
+ 
+  cursor: pointer; 
+} 
+.navbar { 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3); 
+} 
+ 
+.navbar a { 
+  display: inline-block; 
+text-decoration: none; 
+color: black; 
+padding: 15px 20px 10px; 
+border-bottom: 5px solid transparent; 
+font-weight: bold; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+cursor: pointer; 
+ 
+} 
+.navbar a:hover { 
+  background-color: rgba(0, 0, 0, .1); 
+  border-color: black; 
+} 
+.navbar.navbar-red a { 
+  color: white; 
+} 
+.navbar.navbar-red { 
+  background-color: red; 
+} 
+.navbar-red a:hover { 
+  background-color: rgba(0, 0, 0, .1); 
+  border-color: rgb(255, 255, 255); 
+} 
+.navbar.navbar-fixed { 
+  position: sticky; 
+  top: 0; 
+  background-color: white; 
+ 
+}
